@@ -1,0 +1,41 @@
+body{
+  background: darkslateblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox{
+  background-image: url('download.jpg');
+  position: relative;
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.whiteBox{
+  display: inline-block;
+  height: 155px;
+  width: 155px;
+  margin: 10px;
+  background-color: white;
+  border: 3px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hold{
+  border: solid red 4px;
+}
+
+.dashed{
+  background: rgb(214, 206, 206);
+  border-style: dashed;
+}
+
+.hide{
+  display: none;
+}
